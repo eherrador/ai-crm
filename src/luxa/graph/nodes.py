@@ -4,19 +4,19 @@ from uuid import uuid4
 from langchain_core.messages import HumanMessage, RemoveMessage, AIMessage
 from langchain_core.runnables import RunnableConfig
 
-from ai_companion.graph.utils.chains import (
+from luxa.graph.utils.chains import (
     get_character_response_chain,
     get_router_chain,
 )
-from ai_companion.graph.utils.helpers import (
+from luxa.graph.utils.helpers import (
     get_chat_model,
     get_text_to_speech_module,
     get_text_to_image_module,
 )
-from ai_companion.graph.state import AICompanionState
-from ai_companion.modules.schedules.context_generation import ScheduleContextGenerator
-from ai_companion.settings import settings
-from ai_companion.modules.memory.long_term.memory_manager import get_memory_manager
+from luxa.graph.state import AICompanionState
+from luxa.modules.schedules.context_generation import ScheduleContextGenerator
+from luxa.settings import settings
+from luxa.modules.memory.long_term.memory_manager import get_memory_manager
 
 
 async def router_node(state: AICompanionState):

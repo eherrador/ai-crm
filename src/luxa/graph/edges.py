@@ -1,5 +1,5 @@
-from ai_companion.graph.state import AICompanionState
-from ai_companion.settings import settings
+from luxa.graph.state import AICompanionState
+from luxa.settings import settings
 
 from langgraph.graph import END
 from typing_extensions import Literal

@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import Dict, Optional
 
-from ai_companion.core.schedules import (
+from luxa.core.schedules import (
     MONDAY_SCHEDULE,
     TUESDAY_SCHEDULE,
     WEDNESDAY_SCHEDULE,

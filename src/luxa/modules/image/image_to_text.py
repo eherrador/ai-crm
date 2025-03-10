@@ -4,8 +4,8 @@ from typing import Optional, Union
 import logging
 from groq import Groq
 
-from ai_companion.settings import settings
-from ai_companion.core.exceptions import ImageToTextError
+from luxa.settings import settings
+from luxa.core.exceptions import ImageToTextError
 
 
 class ImageToText:

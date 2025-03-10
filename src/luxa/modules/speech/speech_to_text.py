@@ -4,8 +4,8 @@ from typing import Optional
 
 from groq import Groq
 
-from ai_companion.core.exceptions import SpeechToTextError
-from ai_companion.settings import settings
+from luxa.core.exceptions import SpeechToTextError
+from luxa.settings import settings
 
 
 class SpeechToText:

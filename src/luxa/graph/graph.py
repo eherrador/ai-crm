@@ -2,11 +2,11 @@ from functools import lru_cache
 
 from langgraph.graph import END, START, StateGraph
 
-from ai_companion.graph.edges import (
+from luxa.graph.edges import (
     select_workflow,
     should_summarize_conversation,
 )
-from ai_companion.graph.nodes import (
+from luxa.graph.nodes import (
     audio_node,
     conversation_node,
     image_node,
@@ -16,7 +16,7 @@ from ai_companion.graph.nodes import (
     memory_extraction_node,
     memory_injection_node,
 )
-from ai_companion.graph.state import AICompanionState
+from luxa.graph.state import AICompanionState
 
 
 @lru_cache(maxsize=1)
