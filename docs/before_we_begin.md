@@ -50,7 +50,7 @@ To create the ELEVENLABS_API_KEY you need to create an account in [ElevenLabs](h
 
 ![alt text](img/elevenlabs_api_key.png)
 
-As for the voice ID, you can check the available voices and select the one you prefer! We'll cover this in a dedicated lesson.
+As for the voice ID, you can check the Luxailable voices and select the one you prefer! We'll cover this in a dedicated lesson.
 
 ### Together AI
 
