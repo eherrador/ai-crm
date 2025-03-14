@@ -74,6 +74,6 @@ You also need a QDRANT_URL, which is the URL of your Qdrant Cloud instance. You 
 
 Copy both values and paste them into your own `.env` file.
 
-This is everything you need to get the project up and running. Maybe you are wondering why we didn't set any of the WhatsApp variables. That's because you can still run the project without them, using the [Chainlit interface](../src/ai_companion/interfaces/chainlit/app.py).
+This is everything you need to get the project up and running. Maybe you are wondering why we didn't set any of the WhatsApp variables. That's because you can still run the project without them, using the [Chainlit interface](../src/ai_crm/interfaces/chainlit/app.py).
 
 In Lesson 6 (the last one), we will cover, in detail, how to set up the WhatsApp interface.
